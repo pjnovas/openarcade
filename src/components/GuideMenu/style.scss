@@ -1,0 +1,33 @@
+.GuideMenu {
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .closedBox {
+    flex: 0 1 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: url('./arcade.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+
+    width: 100%;
+    height: 100%;
+
+    a {
+      color: #fff;
+      font-size: 2em;
+      flex: 1 1 100%;
+      padding: 50px;
+      background-color: rgba(0,0,0,0.4);
+      text-align: center;
+      cursor: pointer;
+    }
+  }
+}

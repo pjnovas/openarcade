@@ -1,0 +1,13 @@
+steps:
+  - id: 'intro'
+    title: 'guide.steps.intro.title'
+  - id: 'modes'
+    title: 'guide.steps.modes.title'
+  - id: 'box'
+    title: 'guide.steps.box.title'
+  - id: 'panel'
+    title: 'guide.steps.panel.title'
+  - id: 'electronics'
+    title: 'guide.steps.electronics.title'
+  - id: 'back'
+    title: 'guide.steps.back.title'

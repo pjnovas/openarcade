@@ -1,0 +1,8 @@
+{
+  "presets": ["react"],
+  "plugins": [
+    "transform-class-properties",
+    "syntax-dynamic-import",
+    "transform-object-rest-spread"
+  ]
+}

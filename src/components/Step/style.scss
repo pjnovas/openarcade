@@ -1,0 +1,52 @@
+.Step {
+  padding: 0 20px;
+  font-size: 1.2em;
+  border-top: 15px solid silver;
+  max-width: 800px;
+  display: block;
+  margin: 0 auto;
+
+  h2 {
+    font-family: 'Play';
+  }
+
+  .carousel {
+
+  }
+
+  .content {
+    margin-top: 20px;
+
+    h3 {
+      margin: 15px 0 0px 0;
+    }
+
+    blockquote {
+      padding: 0.5em 0 0.5em 0.1em;
+      background-color: #253a4a;
+      border-left: 10px solid #607586;
+    }
+
+    p {
+      margin: 0.5em;
+    }
+
+    ul {
+      margin: 10px 0 20px 0;
+
+      li {
+
+      }
+    }
+
+    img {
+      width: 100%;
+      margin: 0 auto;
+      display: inline-block;
+    }
+
+    hr {
+      border: 2px solid #314452;
+    }
+  }
+}

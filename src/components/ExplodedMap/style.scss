@@ -1,0 +1,21 @@
+
+.ExplodedMap {
+  width: 100%;
+
+  svg {
+    width: 100%;
+  }
+
+  .hover-group {
+    fill:rgba(0,0,0,0);
+
+    &:hover {
+      fill:rgba(38, 255, 0, 0.3);
+      stroke:#09ee09;
+      stroke-width:1px;
+      stroke-linecap:round;
+      stroke-linejoin:round;
+      stroke-opacity:1
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "8d2bc2d959a55e76466bbef6e84c8373",
+      "css": "small-size",
+      "code": 59393,
+      "src": "typicons"
+    },
+    {
+      "uid": "3d349daaea304032a7669b4f24931b6c",
+      "css": "versatile",
+      "code": 59394,
+      "src": "entypo"
+    },
+    {
+      "uid": "a14be0c7e0689076e2bdde97f8e309f9",
+      "css": "plug",
+      "code": 61926,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "8704cd847a47b64265b8bb110c8b4d62",
+      "css": "arrow-down",
+      "code": 59396,
+      "src": "entypo"
+    },
+    {
+      "uid": "d0df4d152daa276ccf31ac968c1dd103",
+      "css": "joystick",
+      "code": 62740,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "5bb103cd29de77e0e06a52638527b575",
+      "css": "diy",
+      "code": 59395,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "3e290a111c0f3ee3acbf7b5f17ccc04a",
+      "css": "play",
+      "code": 59392,
+      "src": "typicons"
+    }
+  ]
+}

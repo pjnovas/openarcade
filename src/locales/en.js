@@ -65,6 +65,15 @@ export default {
       },
       back: {
         title: 'Back (RaspberryPi and USB output)'
+      },
+      left: {
+        title: 'Left (Ventilation and cheat buttons)'
+      },
+      right: {
+        title: 'Right (USB ports)'
+      },
+      front: {
+        title: 'Front (Power button)'
       }
     }
   }

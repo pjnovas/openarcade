@@ -10,6 +10,10 @@
 ### Start App
 ```npm start```
 
+### Process images for web
+```npm run images```
+> this will copy and compress images from src/guide into static/guide
+
 -------  
 
 LICENSE 

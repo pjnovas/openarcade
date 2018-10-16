@@ -37,8 +37,6 @@ De arriba hacia abajo (cada modo posee su pieza 3D):
 
 Dependiendo del modo elegido serán los componentes a utilizar:
 
-#### Tornillería:
-
 Para todos:
 * 2 Tornillos 5/32" x 12 mm
 * 2 Tuercas __Estampadas__ 5/32" 

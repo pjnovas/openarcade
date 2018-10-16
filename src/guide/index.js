@@ -28,6 +28,18 @@ export default {
     back: {
       es: fs.readFileSync(__dirname + '/back/es.md', 'utf8'),
       en: fs.readFileSync(__dirname + '/back/en.md', 'utf8')
+    },
+    left: {
+      es: fs.readFileSync(__dirname + '/left/es.md', 'utf8'),
+      en: fs.readFileSync(__dirname + '/left/en.md', 'utf8')
+    },
+    right: {
+      es: fs.readFileSync(__dirname + '/right/es.md', 'utf8'),
+      en: fs.readFileSync(__dirname + '/right/en.md', 'utf8')
+    },
+    front: {
+      es: fs.readFileSync(__dirname + '/front/es.md', 'utf8'),
+      en: fs.readFileSync(__dirname + '/front/en.md', 'utf8')
     }
   }
 }

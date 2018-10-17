@@ -72,6 +72,6 @@ Luego poner la plaqueta con sus 4 tornillos.
 
 ![Armado 3][assembly3]
 
-Finalmente enchufar el USB de la plaqueta a la Raspberr Pi.
+Finalmente enchufar el USB de la plaqueta a la Raspberry Pi.
 
 ![Armado 4][assembly4]

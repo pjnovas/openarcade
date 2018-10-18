@@ -8,17 +8,16 @@ import marked from 'marked';
 // Component
 
 const Step = ({
-  title,
+  id,
   content
 }) =>
   <section className="Step">
-    <h2><Text id={title}/></h2>
-    <div className="carousel">[Carousel]</div>
+    <h2><Text id={`guide.steps.${id}.title`}/></h2>
     <div className="content" dangerouslySetInnerHTML={{__html: marked(content)}} />
   </section>
 
 Step.propTypes = {
-  title: PropTypes.string,
+  id: PropTypes.string,
   content: PropTypes.string
 };
 

@@ -1,9 +1,17 @@
 import fs from 'fs';
 
-import {steps} from './steps.yaml'
-
 export default {
-  steps,
+  steps: [
+    'intro',
+    'modes',
+    'box',
+    'panel',
+    'electronics',
+    'back',
+    'left',
+    'right',
+    'front'
+  ],
   content: {
     intro: {
       es: fs.readFileSync(__dirname + '/intro.es.md', 'utf8'),

@@ -5,15 +5,27 @@ import Hero from '/components/Hero';
 import LanguageSelector from '/components/LanguageSelector';
 import GuideMenu from '/components/GuideMenu';
 import ExplorerBar from '/components/ExplorerBar';
-import Steps from '/components/Steps';
+import StepPage from '/components/StepPage';
+
+import {Fragment} from 'redux-little-router';
 
 const App = () => (
   <div className="App">
     <LanguageSelector />
-    <Hero />
-    <GuideMenu/>
-    <ExplorerBar />
-    <Steps/>
+    <Fragment forRoute="/">
+      <div>
+        <Fragment forRoute="/">
+          <div>
+            <Hero />
+            <GuideMenu/>
+            <ExplorerBar />
+          </div>
+        </Fragment>
+        <Fragment forRoute="/guide/:name">
+          <StepPage />
+        </Fragment>
+      </div>
+    </Fragment>
   </div>
 );
 

@@ -1,0 +1,18 @@
+.PageHeader {
+  .title {
+    color: #fff;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 4em;
+    margin: 20px 0;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 100px;
+      height: 100px;
+    }
+  }
+}

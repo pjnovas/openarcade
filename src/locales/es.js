@@ -5,7 +5,7 @@ export default {
   hero: {
     intro: 'ES - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, incidunt corrupti commodi neque distinctio officiis sapiente asperiores, quo natus dolore in eveniet eum aliquam tempora eos non veritatis amet cupiditate!',
     features: {
-      small_size: {
+      'small-size': {
         title: 'Fácil de llevar',
         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, incidunt corrupti commodi neque distinctio officiis sapiente'
       },
@@ -13,11 +13,11 @@ export default {
         title: 'Versátil',
         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, incidunt corrupti commodi neque distinctio officiis sapiente'
       },
-      plug_and_play: {
+      plug: {
         title: 'Enchufá y Jugá',
         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, incidunt corrupti commodi neque distinctio officiis sapiente'
       },
-      joystick_mode: {
+      joystick: {
         title: 'Modo Joystick',
         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, incidunt corrupti commodi neque distinctio officiis sapiente'
       },
@@ -47,33 +47,44 @@ export default {
     }
   },
   guide: {
+    menu_title: 'Menú',
+    step_not_found: 'Paso no encontrado',
     steps: {
       intro: {
-        title: 'Introducción'
+        title: 'Introducción',
+        menu: 'Introducción'
       },
       modes: {
-        title: 'Modos'
+        title: 'Modos',
+        menu: 'Modos'
       },
       box: {
-        title: 'Construyendo la Caja'
+        title: 'Construyendo la Caja',
+        menu: 'La Caja'
       },
       panel: {
-        title: 'Diseño de Panel de Botones'
+        title: 'Diseño de Panel de Botones',
+        menu: 'Panel de Botones'
       },
       electronics: {
-        title: 'Electrónica'
+        title: 'Electrónica',
+        menu: 'Electrónica'
       },
       back: {
-        title: 'Posterior (RaspberryPi y Salida USB)'
+        title: 'Posterior (RaspberryPi y Salida USB)',
+        menu: 'Lado Posterior'
       },
       left: {
-        title: 'Izquierdo (Ventilación y Botones Cheat)'
+        title: 'Izquierdo (Ventilación y Botones Cheat)',
+        menu: 'Lado Izquierdo'
       },
       right: {
-        title: 'Derecho (Puertos USB)'
+        title: 'Derecho (Puertos USB)',
+        menu: 'Lado Derecho'
       },
       front: {
-        title: 'Frontal (Botón de encendido)'
+        title: 'Frontal (Botón de encendido)',
+        menu: 'Lado Frontal'
       }
     }
   }

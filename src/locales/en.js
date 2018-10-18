@@ -5,7 +5,7 @@ export default {
   hero: {
     intro: 'EN - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, incidunt corrupti commodi neque distinctio officiis sapiente asperiores, quo natus dolore in eveniet eum aliquam tempora eos non veritatis amet cupiditate!',
     features: {
-      small_size: {
+      'small-size': {
         title: 'Easy to carry',
         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, incidunt corrupti commodi neque distinctio officiis sapiente'
       },
@@ -13,11 +13,11 @@ export default {
         title: 'Versatile',
         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, incidunt corrupti commodi neque distinctio officiis sapiente'
       },
-      plug_and_play: {
+      plug: {
         title: 'Plug & Play',
         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, incidunt corrupti commodi neque distinctio officiis sapiente'
       },
-      joystick_mode: {
+      joystick: {
         title: 'Joystick Mode',
         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, incidunt corrupti commodi neque distinctio officiis sapiente'
       },
@@ -47,33 +47,44 @@ export default {
     }
   },
   guide: {
+    menu_title: 'Menu',
+    step_not_found: 'Step Not Found',
     steps: {
       intro: {
-        title: 'Introduction'
+        title: 'Introduction',
+        menu: 'Intro'
       },
       modes: {
-        title: 'Modes'
+        title: 'Modes',
+        menu: 'Modes'
       },
       box: {
-        title: 'Building the Box'
+        title: 'Building the Box',
+        menu: 'Building the Box'
       },
       panel: {
-        title: 'Buttons Panel Layout'
+        title: 'Buttons Panel Layout',
+        menu: 'Buttons Panel Layout'
       },
       electronics: {
-        title: 'Electronics'
+        title: 'Electronics',
+        menu: 'Electronics'
       },
       back: {
-        title: 'Back (RaspberryPi and USB output)'
+        title: 'Back (RaspberryPi and USB output)',
+        menu: 'Back Side'
       },
       left: {
-        title: 'Left (Ventilation and cheat buttons)'
+        title: 'Left (Ventilation and cheat buttons)',
+        menu: 'Left Side'
       },
       right: {
-        title: 'Right (USB ports)'
+        title: 'Right (USB ports)',
+        menu: 'Right Side'
       },
       front: {
-        title: 'Front (Power button)'
+        title: 'Front (Power button)',
+        menu: 'Front Side'
       }
     }
   }

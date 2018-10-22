@@ -29,6 +29,10 @@
 [elsdone1]: /guide/box/elsdone1.jpg
 [finishedbox]: /guide/box/finishedbox.jpg
 
+[front_back]: /guide/box/front_back.pdf
+[left_right]: /guide/box/left_right.pdf
+[base]: /guide/box/base.pdf
+
 Por defecto el tamaño de la caja es 200 (largo) x 160 (ancho) x 70 (alto) milímetros sin patas.
 
 Está pensado para el uso de Acrílico de 6 mm o MDF de 5.5 mm de espesor.
@@ -75,12 +79,10 @@ Además son necesarias 4 patas de goma de no mas de 21 mm de diámetro
 
 ------
 
-[TODO: Agregar links a pdfs]  
-
 Imprimir los archivos:
-* `front_back.pdf`
-* `left_right.pdf`
-* `base.pdf`
+* [`front_back.pdf`][front_back]
+* [`left_right.pdf`][left_right]
+* [`base.pdf`][base]
 
 ![Plantilla 1][template1]
 

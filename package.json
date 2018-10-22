@@ -6,7 +6,7 @@
     "start": "parcel src/index.html",
     "build:prod": "NODE_ENV=production parcel build src/index.html -d output",
     "lint": "eslint src",
-    "images": "node scripts/parseImages.js"
+    "build:guide": "node scripts/buildGuide.js"
   },
   "repository": {
     "type": "git",

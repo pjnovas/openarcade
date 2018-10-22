@@ -3,12 +3,12 @@ Las aberturas de los lados de la caja y las partes 3D están pensadas para que p
 ser combinadas según el uso que se le va a dar.  
 
 Armé algunas combinaciones comunes con un propósito determinado que explico abajo, pero 
-se pueden crear otras combinaciones tambien.
+se pueden crear otras combinaciones también.
 
 Para visualizar cada modo en 3D ingresar al Personalizador: http://customizer.openarcade.com.ar
 
 ### RetroPie Full
-La versión mas completa, cuenta con todas las caracteristicas del proyecto.
+La versión mas completa, cuenta con todas las características del proyecto.
 * RaspberryPi con RetroPie para enchufar a la TV y jugar
 * Un selector USB para pasar a modo "joystick solo" y utilizarlo en una PC
 * Botones Cheat (en caso de que lo soporte la interfaz USB del joystick)
@@ -21,12 +21,12 @@ Igual que la versión Full pero sin el selector USB para el modo "joystick solo"
 * USB Rack para conectar otros joysticks, teclado o mouse, etc.
 
 ### RetroPie
-Versión sin los botones Cheat en caso de que la interfaz usb usada no lo soporte, simplemente se reemplza con una pieza 3D de ventilacion para la raspberry pi.
+Versión sin los botones Cheat en caso de que la interfaz usb usada no lo soporte, simplemente se reemplaza con una pieza 3D de ventilación para la raspberry pi.
 * RaspberryPi con RetroPie para enchufar a la TV y jugar
 * USB Rack para conectar otros joysticks, teclado o mouse, etc.
 
 ### RetroPie Solo
-La Versión mas simple con RaspberryPi. No posee el rack USB ni el selector. Está pensada para simplificar la construccion pero mantener la simplicidad de enchufar a una TV y jugar.
+La Versión mas simple con RaspberryPi. No posee el rack USB ni el selector. Está pensada para simplificar la construcción pero mantener la simplicidad de enchufar a una TV y jugar.
 * RaspberryPi con RetroPie para enchufar a la TV y jugar
 
 ### Joystick Cheater

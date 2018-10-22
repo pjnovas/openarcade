@@ -22,14 +22,16 @@
 [attach5]: /guide/panel/attach5.jpg 
 [attach6]: /guide/panel/attach6.jpg 
 
+[6_of_24_DG]: /guide/panel/6_of_24_DG.pdf
+[6_of_24_EG]: /guide/panel/6_of_24_EG.pdf
+[6_of_24_ST]: /guide/panel/6_of_24_ST.pdf
+
 Dejo 3 plantillas con distintos diseños, se pueden ver como quedan en el Personalizador: http://customizer.openarcade.com.ar
 
-[TODO: add pdf files]
-
 Plantillas 
-* 6 botones de 24mm - Ergonómico 
-* 6 botones de 24mm - Inclinado
-* 6 botones de 24mm - Derecho
+* [6 botones de 24mm - Ergonómico][6_of_24_EG] 
+* [6 botones de 24mm - Inclinado][6_of_24_DG]
+* [6 botones de 24mm - Derecho][6_of_24_ST]
 
 ### Materiales  
 

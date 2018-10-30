@@ -40,13 +40,14 @@ Para los botones cheat:
 
 ---
 
-### Instalando la pieza 3D
+### Instalando la pieza
 
 ![Ensamblado][assembly]
 
 Todas las piezas se instalan de la misma manera, insertando y pasando los 2 tornillos desde afuera hacia adentro.
 
 ![Ensamblado 1][assembly1]
+
 ![Ensamblado 2][assembly2]
 
 Luego ajustando las arandelas y las tuercas de cada uno.
@@ -60,6 +61,7 @@ En caso de usar los botones cheat ya se pueden agregar los faston con sus respec
 Para luego volver a ajustar el lado en la caja con sus respectivas conexiones (en caso de tener botones)
 
 ![Ensamblado 5][assembly5]
+
 ![Ensamblado 6][assembly6]
 
 > En caso de tener los botones cheat (mignon), se inserta la tuerca desde afuera, el pulsador con su arandela desde adentro hacia afuera y se enrosca.

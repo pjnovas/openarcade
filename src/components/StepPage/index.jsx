@@ -40,7 +40,7 @@ StepPage.propTypes = {
 };
 
 export const mapStateToProps = state => {
-  let step = get(state, 'router.params.name');
+  let step = get(state, 'router.params.name', 'intro');
   let steps = get(state, 'guide.steps', []);
 
   return {

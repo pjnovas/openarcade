@@ -7,36 +7,37 @@
   justify-content: center;
   align-items: center;
 
+  background-image: url('./bg.jpg');
+
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    z-index: 1;
+
+    background-color: rgba(23,38,49,0.6);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cg fill-opacity='0.2'%3E%3Cpath fill-rule='evenodd' d='M0 0h4v4H0V0zm4 4h4v4H4V4z'/%3E%3C/g%3E%3C/svg%3E");
+  }
+
   >div {
     height: 100%;
+    width: 100%;
   }
 
   .hero-content {
     position: relative;
     padding: 20px 30px;
-    height: 75%;
-
-    background-image: url('https://cdn.instructables.com/F7T/8OC0/JKN8PK46/F7T8OC0JKN8PK46.LARGE.jpg');
-
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-
-    &::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-
-      z-index: 1;
-
-      background-color: rgba(23,38,49,0.8);
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cg fill-opacity='0.2'%3E%3Cpath fill-rule='evenodd' d='M0 0h4v4H0V0zm4 4h4v4H4V4z'/%3E%3C/g%3E%3C/svg%3E");
-    }
+    z-index: 2;
 
     >p, >ul {
       position: relative;
@@ -53,11 +54,12 @@
 
     >.continue {
       position: relative;
-      bottom: 25px;
+      bottom: 0px;
       font-size: 5em;
       text-align: center;
       width: 100%;
       display: block;
+      z-index: 100;
     }
   }
 
@@ -76,6 +78,7 @@
       align-items: center;
       border: 2px solid #fff;
       padding: 20px 10px;
+      height: 250px;
 
       >i {
         display: flex;
@@ -95,6 +98,19 @@
         max-width: 200px;
         text-align: center;
       }
+    }
+  }
+
+  .PageHeader {
+    position: relative;
+    z-index: 5;
+    background-color: #172631;
+    top: 0;
+    left: 0;
+
+    >h1 {
+      margin: 0;
+      padding: 20px 0 ;
     }
   }
 

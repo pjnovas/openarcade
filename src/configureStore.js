@@ -1,6 +1,7 @@
 import { combineReducers, compose, createStore, applyMiddleware } from 'redux';
 import * as reducers from './reducers';
 import { routerForBrowser } from 'redux-little-router';
+import thunk from 'redux-thunk';
 
 const routes = {
   '/': {
@@ -10,11 +11,10 @@ const routes = {
     title: 'Guide'
   }
 };
-
 const router = routerForBrowser({routes});
 
 const composedMiddleware = [
-  applyMiddleware(router.middleware)
+  applyMiddleware(thunk, router.middleware)
 ];
 
 if (process.env.NODE_ENV !== 'production') {

@@ -28,7 +28,7 @@ Los botones de start y select son simplemente insertarlos y enchufarlos en la in
 
 ---
 
-### Diagrama de conexión
+### Diagrama de conexion
 
 Glosario:
 

@@ -71,7 +71,7 @@ Luego poner los tornillos M2.5 (no usar mucha fuerza para no romper el plástico
 
 ----
 
-### Módulo USB Type-B
+### Modulo USB Tipo-B
 
 ![usbb][usbb]
 
@@ -87,13 +87,19 @@ Ajustar la pieza usando los tornillos M3.
 
 > Si los tornillos M3 son mas largos la pieza no se puede pasar por la abertura del lado posterior (MDF o acrílico), para ese caso, se pueden poner los tornillos luego de insertar la pieza 3D en el MDF.
 
-En el caso del modo "Solo Joystick" simplemente se conectan los pines del modulo USB a la interfaz USB del joystick. Esta conexión va a depender de la interfaz usada.
+### Conexiones
+
+En el caso del modo "Solo Joystick" simplemente se conectan los pines del modulo USB a la interfaz USB del joystick. Esta conexión va a depender de la interfaz usada pero siendo USB es conectar cada correspondiente entre sí (VCC, GND, D+, D-);
 
 Pero en el caso del módulo con el selector USB la conexión es un poco mas compleja:
 
 ![diagrama][diagramb]
 
+El resultado final quedaría algo asi:
+
 ![conexiones][conn]
+
+La ficha USB macho va a la raspberry pi, los 4 cables sueltos van a la interfaz USB del joystick y el modulo hembra es para enchufar a la PC. Al cambiar el estado del switch vamos a estar cerrando el circuito entre la interfaz USB y el modulo ó bien entre la interfaz USB y la ficha macho USB (raspberry pi).
 
 ---
 

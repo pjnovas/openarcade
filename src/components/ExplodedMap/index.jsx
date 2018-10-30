@@ -1,7 +1,9 @@
+import './style.scss';
 import React, {div} from 'react';
 import PropTypes from 'prop-types';
 import {connect} from 'react-redux';
-import './style.scss';
+import * as locales from '/locales';
+import { push } from 'redux-little-router';
 
 import last from 'lodash/last';
 import omit from 'lodash/omit';
@@ -70,10 +72,17 @@ export const mapStateToProps = state => ({
   selected: last(get(state, 'explorerBar.id', '').split('.'))
 });
 
+const resolveLink = id => (dispatch, getState) => {
+  let lang = getState().intl.current;
+  let url = get(locales, `${lang}.assembly.links.${id}`);
+  dispatch(push(`guide/${url}`));
+  window.scroll({top: 0});
+};
+
 export const mapDispatchToProps = dispatch => ({
   onEnter: id => () => dispatch({ type: SET_EXPLORER_BAR, payload: `assembly.titles.${id}` }),
   onLeave: id => () => dispatch({ type: CLEAR_EXPLORER_BAR, payload: `assembly.titles.${id}` }),
-  onClick: id => () => console.log(`Clicked on ${id}`)
+  onClick: id => () => dispatch(resolveLink(id))
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(ExplodedMap);

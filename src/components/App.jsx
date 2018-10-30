@@ -21,7 +21,7 @@ const App = () => (
             <ExplorerBar />
           </div>
         </Fragment>
-        <Fragment forRoute="/guide/:name">
+        <Fragment forRoute="/guide(/:name)">
           <StepPage />
         </Fragment>
       </div>

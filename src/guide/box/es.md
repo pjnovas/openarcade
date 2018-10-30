@@ -79,6 +79,8 @@ Además son necesarias 4 patas de goma de no mas de 21 mm de diámetro
 
 ------
 
+### Plantillas 
+
 Imprimir los archivos:
 * [`front_back.pdf`][front_back]
 * [`left_right.pdf`][left_right]
@@ -110,15 +112,21 @@ Realizar los agujeros grandes para ingresar con la caladora y hacer los cortes r
 
 Todos los cortes rectangulares tienen un standard de 30 mm de alto por 30, 90 o 120 mm dependiendo de la pieza a utilizar.
 
+### Frente 
+
 ![Agujero frontales][frontholes]
 
 Para el frente las medidas de los agujeros y su disposición son opcionales y van a depender de que botones se utilicen. En mi caso el botón de encendido tiene un paso de 16 mm y los de START y SELECT son de 12 mm. La disposición de los agujeros es opcional, se puede variar sin mucho riesgo al armado de la caja.
+
+### Colores 
 
 ![Vinilo][vinil]
 
 En caso de MDF se puede pintar, diseñar algo e imprimirlo con papel fotográfico adhesivo o bien cubrir con vinilo adhesivo.
 
 ---
+
+### Patas 
 
 ![Laterales][sideslegs]
 
@@ -144,6 +152,8 @@ Ahora agregamos las 4 patas de goma, con sus respectivos tornillos pasantes (5/3
 ![Base Legs 2][baselegs2]
 
 Nos podemos ayudar con una pinza de punta fina para las tuercas que son difíciles de llegar pero todavía no ajustamos los tornillos.
+
+### Eles Superiores 
 
 ![Els][els]
 Luego armamos las Eles.

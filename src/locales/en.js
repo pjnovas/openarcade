@@ -3,27 +3,27 @@ export default {
     title: 'Open Arcade'
   },
   hero: {
-    intro: 'EN - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, incidunt corrupti commodi neque distinctio officiis sapiente asperiores, quo natus dolore in eveniet eum aliquam tempora eos non veritatis amet cupiditate!',
+    intro: 'A DIY joystick meant to build at home and enjoy everywhere',
     features: {
       'small-size': {
         title: 'Easy to carry',
-        desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, incidunt corrupti commodi neque distinctio officiis sapiente'
+        desc: 'Small and easy to carry in a backpack.'
       },
       versatile: {
         title: 'Versatile',
-        desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, incidunt corrupti commodi neque distinctio officiis sapiente'
+        desc: 'Plug them all together and sum up players.'
       },
       plug: {
         title: 'Plug & Play',
-        desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, incidunt corrupti commodi neque distinctio officiis sapiente'
+        desc: 'A version with RetroPie ready to plug in your TV and play.'
       },
       joystick: {
         title: 'Joystick Mode',
-        desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, incidunt corrupti commodi neque distinctio officiis sapiente'
+        desc: 'Ready to use it with a PC or to another and enjoy it as a joystick.'
       },
       diy: {
         title: 'Customizable',
-        desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, incidunt corrupti commodi neque distinctio officiis sapiente'
+        desc: 'Build it as you wish. Choose your own design, colors and buttons layout.'
       }
     }
   },

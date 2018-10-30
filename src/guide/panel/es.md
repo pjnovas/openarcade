@@ -28,7 +28,7 @@
 
 Dejo 3 plantillas con distintos diseños, se pueden ver como quedan en el Personalizador: http://customizer.openarcade.com.ar
 
-Plantillas 
+#### Plantillas 
 * [6 botones de 24mm - Ergonómico][6_of_24_EG] 
 * [6 botones de 24mm - Inclinado][6_of_24_DG]
 * [6 botones de 24mm - Derecho][6_of_24_ST]
@@ -64,6 +64,8 @@ Plantillas
 
 ------
 
+### Taladro
+
 Comenzar por cortar la plantilla por el cuadro exterior para alinearla a la pieza a agujerear y cortar.
 
 ![Plantilla 1][template1]
@@ -77,6 +79,8 @@ Realizar la marca de los puntos con un punzón, son 8 agujeros de 5 mm, uno cent
 
 > En algunas plantillas hay 2 puntos mas para poner los botones frontales (START y SELECT) en el panel. Antes de realizar esos agujeros comprobar que los espacios sean adecuados para los botones que se tienen (el largo puede ser un problema con la RaspberryPi que queda justo por debajo).
 
+### Avellanado 
+
 ![Avellanar 1][countersink1]
 ![Avellanar][countersink]
 
@@ -86,6 +90,8 @@ __Antes__ de hacer los agujeros de 5 mm en el acrílico, avellanar cada uno, es 
 ![Avellanar 3][countersink3]
 
 Lo importante de este paso es que queden los tornillos insertados en el acrílico y de esa forma no molestan las manos al jugar.
+
+### Armado 
 
 ![Armado][build1]
 ![Armado 2][build2]
@@ -108,6 +114,8 @@ Los tornillos de la palanca llevan una arandela elástica sobre una arandela pla
 Por lo general la bola de la palanca se ajusta usando un destornillador desde abajo del vástago teniendo la bola con la mano. Es importante hacerlo para que no se desenrosque la bola mientras se juega.
 
 ![Attach][attach1]
+
+### Eles Superiores
 
 Una vez que tenemos la palanca bien ajustada pasamos a terminar las Eles en la caja.
 

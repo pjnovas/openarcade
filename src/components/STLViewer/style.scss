@@ -1,0 +1,87 @@
+
+.STLViewer {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: rgba(0, 0, 0, 0.75);
+
+  > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    >div {
+      position: relative;
+      border: 2px solid rgb(204, 204, 204);
+      background: #243644;
+      overflow: auto;
+      border-radius: 4px;
+      outline: none;
+      padding: 20px;
+      max-width: 600px;
+      margin: 20px auto;
+    }
+
+    h2 {
+      color: #fff;
+    }
+
+    .close {
+      position: absolute;
+      right: 20px;
+      top: 10px;
+      font-size: 1.5em;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .content {
+      width: 100%;
+      padding-top: 20px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    @media only screen and (max-width: 600px) {
+      >div {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        border: none;
+        margin: 0;
+
+        .close {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 20px;
+
+    a {
+      color: #fff;
+      text-decoration: none;
+      cursor: pointer;
+      margin: 0 10px;
+
+      &.primary {
+        padding: 10px 20px;
+        background-color: #607586;
+      }
+    }
+  }
+}
+

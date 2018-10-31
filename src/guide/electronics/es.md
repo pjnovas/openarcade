@@ -12,6 +12,8 @@
 [rpi2]: /guide/electronics/rpi2.jpg
 [rpi3]: /guide/electronics/rpi3.jpg
 
+[electronics_spacer_M3]: /guide/electronics/electronics_spacer_M3.stl
+
 Los componentes electrónicos varían según el Modo seleccionado a construir. 
 El objetivo de este paso es mostrar como se conectan entre si.
 
@@ -24,7 +26,7 @@ Cada componente tiene su pieza en impresión 3D para su exposición fuera de la 
 ![Parts][pcs]
 
 Por cada tornillo (o separador) a utilizar se necesita:
-* 1 pieza 3D `electronics_spacer_M3.stl`
+* 1 pieza 3D [electronics_spacer_M3.stl][electronics_spacer_M3]
 * 1 tuerca M3
 * 1 tornillo M3 x 10 mm
 * 1 tornillo M2.5 x 6 mm

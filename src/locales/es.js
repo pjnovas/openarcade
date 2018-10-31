@@ -1,6 +1,8 @@
 export default {
   app: {
-    title: 'Open Arcade'
+    title: 'Open Arcade',
+    download: 'Descargar',
+    close: 'Cerrar'
   },
   hero: {
     intro: 'Un joystick pensado para armar en casa y disfrutarlo donde quieras',
@@ -60,6 +62,38 @@ export default {
       usb: 'right#materiales',
       power_button: 'front#diagrama-de-conexion',
       rpi: 'back#raspberry-pi'
+    }
+  },
+  stl: {
+    cheat_buttons: {
+      label: 'cheat_buttons'
+    },
+    electronics_spacer_M3: {
+      label: 'electronics_space_M3'
+    },
+    leg: {
+      label: 'leg'
+    },
+    rpi_back: {
+      label: 'rpi_back'
+    },
+    rpi_back_w_selector: {
+      label: 'rpi_back_w_selector'
+    },
+    top_holder_L: {
+      label: 'top_holder_L'
+    },
+    USB_output: {
+      label: 'USB_output'
+    },
+    USB_rack: {
+      label: 'USB_rack'
+    },
+    ventilation: {
+      label: 'ventilation'
+    },
+    ventilation_buttons: {
+      label: 'ventilation_buttons'
     }
   },
   guide: {

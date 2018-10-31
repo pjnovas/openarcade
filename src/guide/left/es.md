@@ -9,14 +9,18 @@
 [assembly5]: /guide/left/assembly5.jpg
 [assembly6]: /guide/left/assembly6.jpg
 
+[ventilation_buttons]: /guide/left/ventilation_buttons.stl
+[ventilation]: /guide/left/ventilation.stl
+[cheat_buttons]: /guide/left/cheat_buttons.stl
+
 La parte izquierda de la caja tiene 3 modos:
 
 ![Plantillas][templates]
 
 De arriba hacia abajo (cada modo posee su pieza 3D):
-1. Modo de ventilación con cheats `ventilation_buttons.stl`: Cuando se tiene una Raspberry Pi con botones cheats.
-2. Modo sólo ventilación `ventilation.stl`: Cuando se tiene una Raspberry Pi sin botones cheats.
-3. Modo sólo cheats `cheat_buttons.stl`: Modo sólo joystick con cheats (sin raspberry pi).
+1. Modo de ventilación con cheats [ventilation_buttons.stl][ventilation_buttons]: Cuando se tiene una Raspberry Pi con botones cheats.
+2. Modo sólo ventilación [ventilation.stl][ventilation]: Cuando se tiene una Raspberry Pi sin botones cheats.
+3. Modo sólo cheats [cheat_buttons.stl][cheat_buttons]: Modo sólo joystick con cheats (sin raspberry pi).
 4. Modo sólo joystick sin cheats ni raspberry pi: simplemente no se realiza ninguna abertura.
 
 Los botones cheat están pensados para las interfaces USB que lo soportan de la siguiente manera:

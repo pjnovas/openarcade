@@ -31,7 +31,8 @@
     "react-waypoint": "^8.0.3",
     "redux": "^3.7.2",
     "redux-little-router": "^15.1.2",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "stl-viewer": "git+https://git@github.com/pjnovas/react-stl-viewer.git"
   },
   "devDependencies": {
     "autoprefixer": "^9.1.5",

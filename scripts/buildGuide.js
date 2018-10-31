@@ -25,7 +25,7 @@ async function main() {
   let dirs = files.filter(filename => !filename.includes('.'));
 
   let images = await resolveExt(/\.(jpe?g|png)$/i, dirs, guideDir);
-  let docs = await resolveExt(/\.pdf$/i, dirs, guideDir);
+  let docs = await resolveExt(/\.(pdf|stl)$/i, dirs, guideDir);
 
   let log = logPer(flatten([
     ...Object.keys(images).map(dir => images[dir]),

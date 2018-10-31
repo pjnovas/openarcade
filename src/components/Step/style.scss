@@ -10,12 +10,20 @@
     font-family: 'Play';
   }
 
-  .carousel {
-
-  }
-
   .content {
     margin-top: 20px;
+
+    a {
+      color: #fff;
+      text-decoration: none;
+      background-color: #253a4a;
+      padding: 0 5px;
+      border-bottom: 1px solid #fff;
+
+      &:hover {
+        background-color: #607586;
+      }
+    }
 
     h3 {
       margin: 15px 0 0px 0;
@@ -31,11 +39,11 @@
       margin: 0.5em;
     }
 
-    ul {
+    ul, ol {
       margin: 10px 0 20px 0;
 
       li {
-
+        margin: 2px 0;
       }
     }
 

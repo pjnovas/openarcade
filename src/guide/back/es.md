@@ -20,14 +20,18 @@
 [backassembly4]: /guide/back/backassembly4.jpg
 [backassembly5]: /guide/back/backassembly5.jpg
 
+[rpi_back_w_selector]: /guide/back/rpi_back_w_selector.stl
+[rpi_back]: /guide/back/rpi_back.stl
+[USB_output]: /guide/back/USB_output.stl
+
 La parte posterior de la caja tiene 3 modos:
 
 ![Plantillas][templates]
 
 De arriba hacia abajo (cada modo posee su pieza 3D):
-1. El Modo Completo con la raspberry pi y un selector USB para la PC `rpi_back_w_selector.stl`
-2. Sólo la Raspberry Pi `rpi_back.stl`
-3. El último está pensado para el modo "Solo Joystick" donde no se utiliza una raspberry pi y es solo un puerto de salida USB tipo-B para conectar a la PC `USB_output.stl`
+1. El Modo Completo con la raspberry pi y un selector USB para la PC [rpi_back_w_selector.stl][rpi_back_w_selector]
+2. Sólo la Raspberry Pi [rpi_back.stl][rpi_back]
+3. El último está pensado para el modo "Solo Joystick" donde no se utiliza una raspberry pi y es solo un puerto de salida USB tipo-B para conectar a la PC [USB_output.stl][USB_output]
 
 > El proyecto está pensado para usar la Raspberry Pi 3 B+, pero debería ser lo mismo para una 2. 
 

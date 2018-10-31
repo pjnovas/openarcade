@@ -12,6 +12,8 @@
 [assembly3]: /guide/right/assembly3.jpg
 [assembly4]: /guide/right/assembly4.jpg
 
+[USB_rack]: /guide/right/USB_rack.stl
+
 ![Init][init]
 
 El lado derecho del joystick esta pensado para el caso de utilizar una raspberry pi y querer exponer los puertos USB de la misma.
@@ -30,7 +32,7 @@ Es un dispositivo genérico por lo que se lo puede encontrar de distintas marcas
 
 ![Partes][parts]
 
-La pieza 3D es `USB_rack.stl`
+La pieza 3D es [USB_rack.stl][USB_rack]
 
 * 2 Tornillos 5/32" x 12 mm
 * 2 Tuercas __Estampadas__ 5/32" 

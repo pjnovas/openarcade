@@ -6,6 +6,7 @@ import LanguageSelector from '/components/LanguageSelector';
 import GuideMenu from '/components/GuideMenu';
 import ExplorerBar from '/components/ExplorerBar';
 import StepPage from '/components/StepPage';
+import STLViewer from '/components/STLViewer';
 
 import {Fragment} from 'redux-little-router';
 
@@ -22,7 +23,10 @@ const App = () => (
           </div>
         </Fragment>
         <Fragment forRoute="/guide(/:name)">
-          <StepPage />
+          <div>
+            <StepPage />
+            <STLViewer />
+          </div>
         </Fragment>
       </div>
     </Fragment>

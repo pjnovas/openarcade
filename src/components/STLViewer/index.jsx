@@ -5,7 +5,7 @@ import {connect} from 'react-redux';
 
 import last from 'lodash/last';
 
-import Viewer from 'stl-viewer'
+import Viewer from 'stl-viewer';
 import Text from '/components/Text';
 
 // Reducer

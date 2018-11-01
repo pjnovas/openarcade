@@ -3,7 +3,7 @@ import React, {div} from 'react';
 import PropTypes from 'prop-types';
 import {connect} from 'react-redux';
 import * as locales from '/locales';
-import { push } from 'redux-little-router';
+// import { replace } from 'redux-little-router';
 
 import last from 'lodash/last';
 import omit from 'lodash/omit';
@@ -75,8 +75,15 @@ export const mapStateToProps = state => ({
 const resolveLink = id => (dispatch, getState) => {
   let lang = getState().intl.current;
   let url = get(locales, `${lang}.assembly.links.${id}`);
-  dispatch(push(`guide/${url}`));
-  window.scroll({top: 0});
+
+  location.href = `guide/${url}`;
+
+  /*
+  dispatch(replace(`guide/${url}`));
+  if (!url.includes('#')) {
+    window.scroll({top: 0});
+  }
+  */
 };
 
 export const mapDispatchToProps = dispatch => ({

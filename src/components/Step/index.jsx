@@ -2,9 +2,10 @@ import './style.scss';
 import React from 'react';
 import PropTypes from 'prop-types';
 import {connect} from 'react-redux';
-import noop from 'lodash/noop';
-import Text from '/components/Text';
+import get from 'lodash/get';
+import Text, {getTranslations} from '/components/Text';
 import marked from 'marked';
+import Helmet from 'react-helmet';
 
 const isLeftClickEvent = event => event.button === 0;
 const isModifiedEvent = event => !!(event.metaKey || event.altKey || event.ctrlKey || event.shiftKey);
@@ -12,9 +13,13 @@ const isModifiedEvent = event => !!(event.metaKey || event.altKey || event.ctrlK
 const Step = ({
   id,
   content,
-  onClick
+  onClick,
+  stepName
 }) =>
   <section className="Step">
+    <Helmet>
+      <title>Open Arcade - {stepName}</title>
+    </Helmet>
     <h2><Text id={`guide.steps.${id}.title`}/></h2>
     <div
       className="content"
@@ -26,8 +31,13 @@ const Step = ({
 Step.propTypes = {
   id: PropTypes.string,
   content: PropTypes.string,
-  onClick: PropTypes.func
+  onClick: PropTypes.func,
+  stepName: PropTypes.string
 };
+
+export const mapStateToProps = (state, ownProps) => ({
+  stepName: get(getTranslations(state.intl.current), `guide.steps.${ownProps.id}.title`)
+});
 
 export const mapDispatchToProps = dispatch => ({
   onClick: event => {
@@ -59,4 +69,4 @@ export const mapDispatchToProps = dispatch => ({
   }
 });
 
-export default connect(noop(), mapDispatchToProps)(Step);
+export default connect(mapStateToProps, mapDispatchToProps)(Step);

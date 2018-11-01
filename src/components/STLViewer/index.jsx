@@ -58,7 +58,6 @@ const STLViewer = ({
   </div>
   : null
 
-
 STLViewer.propTypes = {
   id: PropTypes.string,
   url: PropTypes.string,

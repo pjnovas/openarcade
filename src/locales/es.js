@@ -31,6 +31,7 @@ export default {
   },
   assembly: {
     open: 'Abrir',
+    gotoguide: 'Ir a la Guía',
     titles: {
       side_left: 'Parte Izquierda',
       side_front: 'Parte Delantera',
@@ -97,7 +98,8 @@ export default {
     }
   },
   guide: {
-    menu_title: 'Menú',
+    menu_title: 'Inicio',
+    customizer: 'Personalizador',
     step_not_found: 'Paso no encontrado',
     steps: {
       intro: {

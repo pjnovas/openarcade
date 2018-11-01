@@ -5,7 +5,6 @@ import PropTypes from 'prop-types';
 import {connect} from 'react-redux';
 
 import get from 'lodash/get';
-import noop from 'lodash/noop';
 
 import Text from '/components/Text';
 import Icon from '/components/Icon';
@@ -66,16 +65,23 @@ const StepsSideMenu = ({
   onClickClose
 }) =>
   <div className={`StepsSideMenu ${visible ? 'active' : ''}`}>
-    <h3><Text id="guide.menu_title"/></h3>
+    <h3>
+      <a href="//openarcade.com.ar">
+        {'< '}<Text id="guide.menu_title"/>
+      </a>
+    </h3>
     <nav>
       {steps.map(step => step === current
         ? <MenuItemList key={step} {...{step, anchors, hash}} />
         : <MenuItem key={step} {...{step, isMobile, onClickClose}} />
       )}
+      <a href="//customizer.openarcade.com.ar" className="customizer">
+        <Text id="guide.customizer"/>
+      </a>
     </nav>
 
     {visible
-      ? <a className="toggle close" onClick={onClickClose}>{'x'}</a>
+      ? <a className="toggle close" onClick={onClickClose}>x</a>
       : <a className="toggle" onClick={onClickOpen}><Icon name="menu"/></a>
     }
   </div>

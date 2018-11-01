@@ -31,6 +31,7 @@ export default {
   },
   assembly: {
     open: 'Open box',
+    gotoguide: 'Go To Guide',
     titles: {
       side_left: 'Box Left Side',
       side_front: 'Box Front Side',
@@ -81,7 +82,8 @@ export default {
     }
   },
   guide: {
-    menu_title: 'Menu',
+    menu_title: 'Home',
+    customizer: 'Customizer',
     step_not_found: 'Step Not Found',
     steps: {
       intro: {

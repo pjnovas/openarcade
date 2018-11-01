@@ -18,6 +18,11 @@
     text-transform: uppercase;
     border-bottom: solid 2px #96a1a9;
     padding-bottom: 5px;
+
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
   }
 
   nav {
@@ -63,6 +68,12 @@
       display: block;
       padding: 5px 0;
       padding-left: 10px;
+    }
+
+    .customizer {
+      border-top: 2px solid silver;
+      margin-top: 10px;
+      padding-top: 10px;
     }
   }
 

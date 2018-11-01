@@ -1,9 +1,10 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import PropTypes from 'prop-types';
 import {connect} from 'react-redux';
 import './style.scss';
 
 import Text from '/components/Text';
+import {Link} from 'redux-little-router';
 
 // Reducer
 
@@ -25,10 +26,17 @@ export const reducer = (state = {}, action = {}) => {
 // Component
 
 const ExplorerBar = ({visible, id}) =>
-  visible && id ?
-    <div className="ExplorerBar">
-      <Text id={id}/>
-    </div>
+  visible ?
+    <Fragment>
+      {
+        <div className="ExplorerBar">
+          <Text id={id}/>
+        </div>
+      }
+      <Link className="GuideLink" href='/guide'>
+        <Text id="assembly.gotoguide"/>
+      </Link>
+    </Fragment>
     : null
 
 ExplorerBar.propTypes = {
